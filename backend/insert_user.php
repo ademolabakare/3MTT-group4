@@ -10,7 +10,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'OPTIONS') {
     exit();
 }
 // Include DB connection
-require 'db.php'; // Assuming db.php contains the connection logic
+require 'db.php'; // db.php contains the connection logic
 
 if ($_SERVER["REQUEST_METHOD"] == "POST") {
     // Retrieve and sanitize user inputs
